@@ -16,9 +16,6 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__authorization/header__authorization.css);
 
-@import url(../blocks/content/content.css);
-@import url(../blocks/content/__intro/content__intro.css);
-
 .depressedrn {
     width: 88px;
     height: 44px;

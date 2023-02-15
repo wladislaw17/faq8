@@ -4,3 +4,9 @@
     grid-template-columns: 138px 51px;
     align-items: center;
 }
+
+@media screen and (max-width: 1439px) {
+    .header__authorization {
+        margin-left: 20px;
+    }
+}

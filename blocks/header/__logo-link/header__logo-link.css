@@ -2,3 +2,10 @@
     line-height: 1px;
     margin: 11px 20px 11px 38px;
 }
+
+@media screen and (max-width: 1439px) {
+    .header__logo-link {
+        margin-left: 23px;
+        margin-right: 13px;
+    }
+}

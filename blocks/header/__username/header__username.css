@@ -7,4 +7,7 @@
     font-weight: 400;
     text-decoration: none;
     justify-self: center;
+    max-width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
