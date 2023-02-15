@@ -1,0 +1,8 @@
+.header__profile-button {
+    background: url(../../../images/profile.svg);
+    width: 51px;
+    height: 51px;
+    padding: 0;
+    border: 0;
+    background-size: cover;
+}

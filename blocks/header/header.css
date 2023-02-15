@@ -1,0 +1,6 @@
+.header {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 119px max-content 379px 303px 225px auto;
+    background-color: #71BFEB;
+}

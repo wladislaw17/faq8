@@ -1,0 +1,48 @@
+.header__input {
+    border: 0;
+    padding: 0;
+    width: 257px;
+    height: 26px;
+    border-radius:15px;
+    transition: width 0.75s ease-in;
+    justify-self: start;
+    align-self: center;
+    margin-left: 33px;
+}
+
+.header__input:focus {
+    outline: none;
+    width: 300px;
+}
+
+.header__input::placeholder {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(14/12);
+    text-align: center;
+}
+
+.header__input::-webkit-input-placeholder {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(14/12);
+    text-align: center;
+}
+
+.header__input::-moz-placeholder {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(14/12);
+    text-align: center;
+}
+
+.header__input::-ms-input-placeholder {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(14/12);
+    text-align: center;
+}
