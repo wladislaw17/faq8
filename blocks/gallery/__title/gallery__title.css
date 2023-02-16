@@ -1,0 +1,9 @@
+.gallery__title {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Inria Serif', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: calc(24/20);
+    text-shadow: 0px 4px 4px #00000040;
+    font-weight: 400;
+}

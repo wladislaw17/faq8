@@ -1,0 +1,14 @@
+.gallery {
+    max-width: 1350px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: max-width 0.75s ease-in-out;
+}
+
+@media screen and (max-width: 1439px) {
+    .gallery {
+        max-width: 985px;
+    }
+}

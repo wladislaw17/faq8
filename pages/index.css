@@ -16,9 +16,15 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__authorization/header__authorization.css);
 
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__intro/gallery__intro.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+
 .depressedrn {
     width: 88px;
-    height: 44px;
-    background-color: aqua;
+    height: 88px;
+    background-image: url('https://media.tenor.com/zFEYpuJqLqQAAAAd/ghoul-dance.gif');
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
 }
