@@ -1,0 +1,13 @@
+.gallery__pictures {
+    padding: 12px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 880px 524px;
+    transition: grid-template-columns 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1439px) {
+    .gallery__pictures {
+        grid-template-columns: 700px 439px;
+    }
+}

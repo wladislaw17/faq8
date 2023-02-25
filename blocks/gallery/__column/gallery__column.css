@@ -1,0 +1,4 @@
+.gallery__column {
+    display: grid;
+    gap: 12px;
+}

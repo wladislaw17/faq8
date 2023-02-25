@@ -27,21 +27,33 @@
             -->
             <div class="depressedrn"></div>
         </div>
+        <button class="header__dropdown-button"></button>
+        <div class="header__dropdown-menu">
+            <a class="header__dropdown-link" href="#">Мой профиль</a>
+            <a class="header__dropdown-link" href="#">Объявления</a>
+            <a class="header__dropdown-link" href="#">Форумы</a>
+        </div>
     </header>
     <main class="content">
         <section class="gallery">
             <div class="gallery__intro">
                 <h2 class="gallery__title">Добро пожаловать на сайт восьмого факультета!</h2>
             </div>
-            <img src="images/info.png" alt="Кафедры 8 факультета">
-            <img src="images/itcenter.png" alt="IT-этаж">
-            <img src="images/lecture.png" alt="Лекция">
-            <img src="images/practicum.png" alt="Практическое занятие">
+            <div class="gallery__pictures">
+                <div class="gallery__column gallery__column_left">
+                    <img class="gallery__picture" src="images/itlecture.jpg" alt="">
+                </div>
+                <div class="gallery__column gallery__column_right">
+                    <img class="gallery__picture" src="images/magister.jpg" alt="">
+                    <img class="gallery__picture" src="images/itstand.jpg" alt="">
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <p class="footer__copyright">1970 – 2023 © Московский ордена Ленина, ордена Октябрьской Революции авиационный институт им. Серго Орджоникидзе.</p>
-        <a class="footer__developers" href="#">Список разработчиков</a>
+        <a class="footer__developer-list" href="#">Список разработчиков</a>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

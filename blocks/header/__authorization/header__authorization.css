@@ -4,3 +4,9 @@
     align-items: center;
     justify-self: end;
 }
+
+@media screen and (max-width: 1174px) {
+    .header__authorization {
+        display: none;
+    }
+}

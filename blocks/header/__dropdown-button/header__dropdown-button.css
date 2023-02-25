@@ -1,0 +1,26 @@
+.header__dropdown-button {
+    display: none;
+    background: url('../../../images/dropdown-menu-icon.png');
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    justify-self: end;
+    margin-right: 23px;
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.header__dropdown-button:hover {
+    background-color: #0081ba;
+}
+
+@media screen and (max-width: 1174px) {
+    .header__dropdown-button {
+        display: block;
+    }
+}

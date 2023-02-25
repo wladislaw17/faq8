@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 
-@import url(../fonts/InriaSerif/InriaSerif.css);
-@import url(../fonts/Inter-3/inter.css);
+@import url(../fonts/Gilroy-Thin/Gilroy-Thin.css);
 
 @import url(../blocks/page/page.css);
 
@@ -15,19 +14,25 @@
 @import url(../blocks/header/__theme-change/header__theme-change.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__authorization/header__authorization.css);
+@import url(../blocks/header/__dropdown-button/header__dropdown-button.css);
+@import url(../blocks/header/__dropdown-menu/header__dropdown-menu.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__intro/gallery__intro.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
+@import url(../blocks/gallery/__pictures/gallery__pictures.css);
+@import url(../blocks/gallery/__picture/gallery__picture.css);
+@import url(../blocks/gallery/__column/gallery__column.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__developers/footer__developers.css);
+@import url(../blocks/footer/__developer-list/footer__developer-list.css);
+
 
 .depressedrn {
     width: 88px;
     height: 88px;
-    background-image: url('https://media.tenor.com/IOx0_o33sToAAAAi/vtuber-th3world-x-xi.gif');
+    background-image: url('https://media.tenor.com/HeKbJjBzwc8AAAAi/girl-cute.gif');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
